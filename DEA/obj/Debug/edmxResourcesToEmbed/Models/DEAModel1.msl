@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="deaModel1StoreContainer" CdmEntityContainer="deaEntities1">
+    <EntitySetMapping Name="T_OTP_Details">
+      <EntityTypeMapping TypeName="deaModel1.T_OTP_Details">
+        <MappingFragment StoreEntitySet="T_OTP_Details">
+          <ScalarProperty Name="OTP_id" ColumnName="OTP_id" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="OTP" ColumnName="OTP" />
+          <ScalarProperty Name="GeneratedOn" ColumnName="GeneratedOn" />
+          <ScalarProperty Name="ValidTill" ColumnName="ValidTill" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PasswordHistoryLog">
+      <EntityTypeMapping TypeName="deaModel1.T_PasswordHistoryLog">
+        <MappingFragment StoreEntitySet="T_PasswordHistoryLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="ChangedOn" ColumnName="ChangedOn" />
+          <ScalarProperty Name="OldPassword" ColumnName="OldPassword" />
+          <ScalarProperty Name="NewPassword" ColumnName="NewPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_Roles">
+      <EntityTypeMapping TypeName="deaModel1.T_Roles">
+        <MappingFragment StoreEntitySet="T_Roles">
+          <ScalarProperty Name="Role_id" ColumnName="Role_id" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_User">
+      <EntityTypeMapping TypeName="deaModel1.T_User">
+        <MappingFragment StoreEntitySet="T_User">
+          <ScalarProperty Name="User_id" ColumnName="User_id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="IsLocked" ColumnName="IsLocked" />
+          <ScalarProperty Name="Role_id" ColumnName="Role_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
