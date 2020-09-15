@@ -102,16 +102,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Models\DEAModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DEAModel.edmx</DependentUpon>
-      <LastGenOutput>DEAModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\DEAModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DEAModel.edmx</DependentUpon>
-      <LastGenOutput>DEAModel.cs</LastGenOutput>
-    </Content>
     <Content Include="Models\DEAModel1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DEAModel1.edmx</DependentUpon>
@@ -133,21 +123,6 @@
     <Compile Include="Controllers\UploadAPIController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEAModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DEAModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEAModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DEAModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\DEAModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DEAModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\DEAModel1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -181,13 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <EntityDeploy Include="Models\DEAModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DEAModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\DEAModel.edmx.diagram">
-      <DependentUpon>DEAModel.edmx</DependentUpon>
-    </Content>
     <EntityDeploy Include="Models\DEAModel1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DEAModel1.Designer.cs</LastGenOutput>
